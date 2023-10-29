@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2rism</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./libs/autoComplete/autoComplete.01.css">
 </head>
 <body>
     
@@ -66,7 +67,7 @@
 
             <div class="form__input-wrapper form__input--location">
                 <label for="location" class="form__label">Location</label>
-                <input type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
+                <input autocomplete="off" type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
             </div>
 
             <div class="form__input-wrapper form__input--activity">
@@ -102,5 +103,9 @@
     </div>
 </header>
 
+
+
+    <script src="./libs/autoComplete/autoComplete.js"></script>
+    <script src="./js/input-dest.js"></script>
 </body>
 </html>
