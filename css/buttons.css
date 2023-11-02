@@ -25,6 +25,12 @@
     padding: 18px;
 }
 
+.button--subscribe {
+    width: 72px;
+    height: 72px;
+    padding: 28px;
+}
+
 /* Button More */
 
 .button-more {
@@ -45,3 +51,4 @@
 .button-more:hover {
     background-color: #dcd8f1;
 }
+
